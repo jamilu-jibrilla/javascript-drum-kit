@@ -1,5 +1,5 @@
-javascript drum kit is a just a simulation of a real life Drum kit
-This project is part of wes bos 30 days of vailla JS
+javascript drum kit is a simulation of a real life Drum kit
+This project is part of wes bos 30 days of vanilla JS
 
 optional: i added the click to play feature
 
