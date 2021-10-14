@@ -55,35 +55,6 @@
     <audio data-key="75" src="sounds/tom.wav"></audio>
     <audio data-key="76" src="sounds/tink.wav"></audio>
 
-    <script>
-      const keys = Array.from(document.querySelectorAll(".key"));
-
-      function animationEnd(e) {
-        if (e.propertyName === "transform") {
-          e.target.classList.remove("playing");
-        }
-      }
-      function playSound(e) {
-        const musicAudio = document.querySelector(
-          `audio[data-key="${e.which}"]`
-        );
-        if (!musicAudio) return;
-        //const key = document.querySelector(`[data-key="${e.which}"]`);
-        //key.classList.add("playing");
-        musicAudio.currentTime = 0;
-        musicAudio.play();
-        const keys = document.querySelectorAll(".key");
-        keys.forEach((key) => {
-          const dataAttribute = key.getAttribute("data-key");
-          if (dataAttribute == e.which) {
-            key.classList.add("playing");
-          }
-        });
-      }
-      keys.forEach((key) =>
-        key.addEventListener("transitionend", animationEnd)
-      );
-      window.addEventListener("keypress", playSound);
-    </script>
+    <script src="./script.js"></script>
   </body>
 </html>
