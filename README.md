@@ -15,3 +15,5 @@ New knowledge:
 
 NB: CLICK ON DRUM KEYS TO PLAY SOUND
 NB: TURN ON CAPSLOCK TO PLAY DRUMS USING THE KEYBOARD
+
+live link: https://jamilu-jibrilla.github.io/javascript-drum-kit/
